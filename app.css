@@ -47,57 +47,6 @@ body {
     font-family: sans-serif;
 }
 
-/* sideNav */
-
-.sideMainNavbar{
-    width: 25%;
-    height: 100%;
-    background-color: #36454f;
-    color: rgba(255, 255, 255, 0.596);
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    transition: 450ms;
-}
-.sideMainNavbar:hover {
-    color: rgba(255, 255, 255, 1);
-    background-color: #36454f;
-}
-
-.sideInnerNavbarBox {
-    margin: 0 2%;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sideMainSectionBox {
-    margin-left: 200px;
-    height: 100%;
-}
-
-.sideInnerNavbarBox {
-    margin: 0 2%;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-
-.sideNavList {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-
-
 /* Inside topNavbar */
 
 .mainNavbar{
@@ -181,7 +130,7 @@ body {
 }
 
 .subSection:nth-of-type(1) {
-    background-image: url(https://images.unsplash.com/photo-1495038394966-d3a2e468d707?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80)
+    background-image: url(https://images.unsplash.com/photo-1495038394966-d3a2e468d707?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
     color: white;
 }
 
