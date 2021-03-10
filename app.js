@@ -225,7 +225,7 @@ function hideWord() {
 let intervalCount = 0;
 
 const wordCycleInterval = setInterval(function () {
-    let randWordIndex = Math.floor(Math.random() * (wordList.length - 0 + 1) + 0);
+    let randWordIndex = Math.floor(Math.random() * wordList.length - 1)+ 0;
     intervalCount++;
     if (intervalCount !== wordList.length) {
         console.log(wordList[randWordIndex]);

@@ -116,7 +116,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .subSection:nth-of-type(2n) {
@@ -131,15 +130,16 @@ body {
 
 .grabBanner {
     background-image: url(https://images.unsplash.com/photo-1495395226200-8fbf6b720b8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2142&q=80);
-    background-position: left 50% bottom 28%;
-    height: 750px;
+    background-position: left 53% bottom 28%;
+    height: 600px;
 }
 
 .subSection .wordCycle{
+    text-align: center;
     font-size: 3rem;
-    text-shadow: black;
+    text-shadow: black 0 0 20px;
     color: white;
-    margin: 15%;
+    margin: 10%;
     transition: 100ms;
     opacity: 1;
 }
