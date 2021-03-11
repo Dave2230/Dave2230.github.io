@@ -225,9 +225,9 @@ function hideWord() {
 let intervalCount = 0;
 
 const wordCycleInterval = setInterval(function () {
-    let randWordIndex = Math.floor(Math.random() * wordList.length - 1)+ 0;
+    let randWordIndex = Math.floor(Math.random() * wordList.length) + 0;
     intervalCount++;
-    if (intervalCount !== wordList.length) {
+    if (intervalCount !== wordList.length - 1) {
         console.log(wordList[randWordIndex]);
         hideWord();
         changeWord(randWordIndex);
@@ -240,3 +240,12 @@ const wordCycleInterval = setInterval(function () {
 }
     , duration
 )
+
+let sliderTrigger = document.getElementsByClassName("slider-trigger")[0];
+let slider = document.getElementsByClassName('slider-parent')[0];
+
+sliderTrigger.addEventListener("click", function (el) {
+    if (slider.classList.contains("active")) {
+        slider.classList.remove("active");
+    } else { slider.classList.add("active"); }
+});
