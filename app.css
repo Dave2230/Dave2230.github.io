@@ -256,10 +256,18 @@ html * {
     pointer-events: inherit;      
     transition: .2s all ease-in-out;     
     opacity: 1;      
-    /* left: 0;  */
+    left: 0; 
+}
+
+.slider-trigger{
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
+    .slider-trigger{
+        display: block;
+    }
+    
     #mainNavList {
         display: none;
     }
