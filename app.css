@@ -258,3 +258,10 @@ html * {
     opacity: 1;      
     /* left: 0;  */
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        color: blue;
+    }
+
+}
