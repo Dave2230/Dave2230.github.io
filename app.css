@@ -45,6 +45,7 @@ table {
 
 body {
     font-family: sans-serif;
+    position: relative;
 }
 
 /* Inside topNavbar */
@@ -59,6 +60,7 @@ body {
     transition: 450ms;
     box-shadow: 0px 0px 1px 0px black;
     z-index: 10;
+    margin-bottom: ;
 }
 
 .innerNavbarBox {
@@ -114,7 +116,7 @@ body {
 /* Under Navbar */
 
 .mainSectionBox {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     height: 100%;
     display: flex;
     flex-direction: column;
