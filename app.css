@@ -46,6 +46,8 @@ table {
 body {
     font-family: sans-serif;
     position: relative;
+    background: rgb(211,208,255);
+    background: radial-gradient(circle, rgba(211,208,255,1) 32%, rgba(145,145,255,1) 68%, rgba(133,131,255,1) 100%);
 }
 
 /* Inside topNavbar */
@@ -115,25 +117,24 @@ body {
 
 /* Under Navbar */
 .mainSectionBox {
-    /* margin-top: 80px; */
+    margin-top: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .subSection {
+    margin-top: 5%;
     height: 500px;
-    width: 100%;
+    width: 75%;
     color: #36454f;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.subSection:nth-of-type(2n) {
-    background-color: #36454f;
-    color: white;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .subSection h2 {
@@ -159,6 +160,7 @@ body {
 /* Inner section containers */
 
 .innerSectionColumn {
+    margin-top: 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
