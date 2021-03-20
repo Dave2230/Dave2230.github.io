@@ -114,7 +114,6 @@ body {
 }
 
 /* Under Navbar */
-
 .mainSectionBox {
     /* margin-top: 80px; */
     height: 100%;
@@ -140,7 +139,6 @@ body {
 .subSection h2 {
     font-size: 2rem;
 }
-
 
 .grabBanner {
     background-image: url(https://images.unsplash.com/photo-1495395226200-8fbf6b720b8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2142&q=80);
@@ -168,7 +166,6 @@ body {
     justify-content:flex-start;
 }
 
-
 .innerSectionRow {
     height: 100%;
     margin: 0 2%;
@@ -178,9 +175,6 @@ body {
     justify-content: space-between;
     text-align: center;
 }
-
-
-
 
 .box {
     width: 200px; height: 100px;
@@ -193,20 +187,6 @@ body {
     background-position: -100% 0;
 
 }
-
-svg {
-    font-size: 4rem;
-    transform: rotate(45deg);
-    transition: 1s;
-
-}
-
-.box:hover svg {
-    transform: rotate(0deg);
-    fill: white;
-}
-
-
 
 .testBox {
     position: relative;
