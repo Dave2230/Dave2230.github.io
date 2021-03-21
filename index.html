@@ -2,53 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Symons | Web Dev</title>
-    <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
 </head>
 
 <body>
-    <div class="mainBox">
-        <nav class="mainNavbar">
-            <div class="innerNavbarBox">
-                <div class="mainLogo">
-                    <h1 class="logo">
-                        DS | Web Developer
-                    </h1>
-                </div>
-                <ul class="navList">
-                    <li class="listItem"><a href="index.html">HOME</a></li>
-                    <li class="listItem"><a href="about.html">ABOUT</a></li>
-                    <li class="listItem"><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <section class="mainSectionBox">
-            <section class="subSection">
-                <div class="innerSectionColumn">
-                    <h2>Hello.</h2>
-                    <p>Welcome to my little corner of the web.</p>
-                </div>
-            </section>
-            <section class="subSection">
-                <div class="innerSectionColumn">
-                    <h2>Dave here.</h2>
-                    <div class="box">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 10.293l5.293-5.293.707.707-5.293 5.293 5.293 5.293-.707.707-5.293-5.293-5.293 5.293-.707-.707 5.293-5.293-5.293-5.293.707-.707 5.293 5.293z" /></svg>
-                        <svg width="50" height="50" version="1.1" viewBox="0 0 210 297">
-                            <ellipse cx="200" cy="200" rx="200" ry="200" stroke="#000" stroke-width="5"/>
-                        </svg>
-                    </div>
-                </div>
-            </section>
-        </section>
+  <div class="main">
+    <div class="profileCard">
+      <img class="cardBg" src="images/bg-pattern-card.svg" alt="">
+      <div class="details">
+        <img class="profilePic" src="images/image-victor.jpg" alt="">
+        <h2>Victor Crest <span class="age">26</span></h2>
+        <p>London</p>
+      </div>
+      <div class="statsContainer">
+        <div class="followerCount statBox">
+          <h2>80K</h2>
+          <p>Followers</p>
+        </div>
+        <div class="likeCount statBox">
+          <h2>803K</h2>
+          <p>Likes</p>
+        </div>
+        <div class="photoCount statBox">
+          <h2>1.4K</h2>
+          <p>Photos</p>
+        </div>
+      </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-    <script src="app.js"></script>
+  </div>
+  <!-- <div class=" attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
 </body>
 
 </html>
